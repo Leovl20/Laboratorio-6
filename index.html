@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,78 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Estilospag1.css" />
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navegación</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <li><a href="pagina1.html">Página 1</a></li>
-            <li><a href="pagina2.html">Página 2</a></li>
-            <li><a href="pagina3.html">Página 3</a></li>
-            <li><a href="index.html">Página Principal</a></li>
-          </div>
+            <div class="navbar-nav">
+                <a href="index.html" class="btn btn-outline-primary">Pagina Principal</a>
+                <a href="pagina1.html" class="btn btn-outline-primary">Pagina 1</a>
+                <a href="pagina2.html" class="btn btn-outline-primary">Pagina 2</a>
+                <a href="pagina3.html" class="btn btn-outline-primary">Pagina 3</a>
+            </div>
         </div>
-      </nav>
+    </nav>
     <h1>PAGINA PRINCIPAL</h1>
-    <p></p>
+    <h2>MENU</h2>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+                <img class="card-img-top img-fluid" src="IMG/f960x540-249273_323348_6847.png" alt="Card image cap">
+                <div class="card-body" style="overflow: hidden;">
+                    <h5 class="card-title">Desastres Ocasinados por las Fuertes Lluvias en Nuevo Leon</h5>
+                    <p class="card-text" id="H5">
+                    <ul>
+                        <li>Zonas Afectadas</li>
+                        <li>Problemas estructurales</li>
+                        <li>Nivel de Afectación a las familias</li>
+                    </ul>
+                    </p>
+                    <a href="pagina1.html" class="btn btn-primary"> Ir Pagina 1</a>
+                </div>
+            </div>
+        </div>
+    <div class="col-md-4">
+        <div class="card" style="width: 100%;">
+            <img class="card-img-top img-fluid" src="IMG/seo-clasico-regio-153659.jpg" alt="Card image cap">
+            <div class="card-body" style="overflow: hidden;">
+                <h5 class="card-title">Crónica Del Clasico Regio</h5>
+                <p class="card-text" id="H5">
+                <ul>
+                    <li>Anotadores</li>
+                    <li>Crónica del partido</li>
+                    <li>Historia</li>
+                </ul>
+                </p>
+                <a href="pagina2.html" class="btn btn-primary"> Ir a Pagina 2</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card" style="width: 100%;">
+            <img class="card-img-top img-fluid" src="IMG/ia-industriajpg.webp" alt="Card image cap">
+            <div class="card-body" style="overflow: hidden;">
+                <h5 class="card-title">La IA en la Ingeniería</h5>
+                <p class="card-text" id="H5">
+                <ul>
+                    <li>Relacion de la IA con la Ingeniería</li>
+                    <li>¿Cómo Afecta la IA a los ingenieros?</li>
+                    <li>Carcateristicas de la IA</li>
+                </ul>
+                </p>
+                <a href="index.html" class="btn btn-primary"> Ir a Pagina 3</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
 
 </body>
+
 </html>
